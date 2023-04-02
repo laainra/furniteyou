@@ -1,0 +1,118 @@
+/* Styles for Header Section */
+
+  .banner {
+    margin-bottom: 20px;
+  }
+  
+  .banner h1 {
+    font-size: 32px;
+  }
+  
+  .search-bar {
+    display: flex;
+  }
+  
+  .search-bar input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .search-bar button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+/* Styles for Jenis Furniture Section */
+#jenis-furniture {
+    padding: 20px;
+    background-color: #fff;
+    }
+    
+    #jenis-furniture h2 {
+    font-size: 24px;
+    }
+    
+    #jenis-furniture ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    #jenis-furniture li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    }
+    
+    #jenis-furniture li:hover {
+    text-decoration: underline;
+    }
+    
+    /* Styles for Hasil Barang Section */
+    #hasil-barang {
+    padding: 20px;
+    background-color: #fff;
+    }
+    
+    #hasil-barang h2 {
+    font-size: 24px;
+    }
+    
+    .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+    }
+    
+    .card {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    }
+    
+    .card:hover {
+    transform: translateY(-5px);
+    }
+    
+    .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    }
+    
+    .card h3 {
+    font-size: 16px;
+    margin: 10px;
+    }
+    
+    .card button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 0 0 5px 5px;
+    cursor: pointer;
+    }
+    
+    /* Styles for Footer Section */
+    footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    }
+  
